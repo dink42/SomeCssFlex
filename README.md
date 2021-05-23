@@ -1,3 +1,4 @@
-# test
-Trying out github.
-Mainly code in C# but when done with school im going to python.
+# Learning
+---
+| Trying out github.
+| Mainly code in C#, Python and some Webb!
