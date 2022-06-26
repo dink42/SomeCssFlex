@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;0,900;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+body:hover {
+    background-color: crimson;
+}
+body::-webkit-validation-bubble-text-block {
+    padding: 25%;
+}
+
+header {
+    text-align: center;
+    color: aliceblue;
+    background-color: blue;
+    padding: 2%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    font-weight: 20[x];
+    font-size: 30px;
+}
+
+
+article.main {
+    background-color: aqua;
+    flex: 1;
+}
+article.main:hover {
+    background-color: rgb(216, 149, 141);
+    color: aliceblue;
+    text-align: center;
+}
+
+aside {
+    background-color: chartreuse;
+    text-align: center;
+    font-weight: 14px;
+}
+
+@media (min-width: 780px) {
+    main {
+        width: 70%;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+    aside {
+        flex: 0 0 20%;
+        font-size: 30px;
+    }
+    aside:hover {
+        background-color: rgb(184, 145, 46);
+    }
+    .sidebar1 {
+        order: -1;
+
+    }
+    .sidebar1:hover {
+        color: aliceblue;
+    }
+    .sidebar2:hover {
+        background-color: mediumslateblue;
+        color: azure;
+    }
+}
+
+
+footer {
+    background-color: blue;
+    color: aliceblue;
+    padding: 2%;
+    text-align: center;
+}
